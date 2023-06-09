@@ -1,0 +1,22 @@
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #000000;
+    position: fixed;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+a:focus {
+    color: rgb(190, 51, 51);
+}
+.sections{
+    display: flex;
+    gap: 20px;
+}
