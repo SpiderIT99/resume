@@ -3,17 +3,17 @@
     display: flex;
     padding-top: 13vh;
 }
-.images{
+.display{
     display: flex;
+    justify-content: center;
     flex-direction: column;
+}
+.images{
+    width: 40%;
     align-items: center;
-    padding-left: 50px;
 }
 #my-img{
-    width: 35vw;
-}
-#github{
-    margin: 0 30px;
+    width: 600px;
 }
 .social-proof{
     padding: 40px 0;
@@ -22,7 +22,11 @@
     width: 120px;
     height: 120px;
 }
+#github{
+    margin: 0 30px;
+}
 .description{
+    width: 60%;
     padding: 70px;
 }
 h1{

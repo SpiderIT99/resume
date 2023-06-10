@@ -1,3 +1,24 @@
 .container{
     height: 100vh;
+    display: flex;
+    background-color: rgba($color: blue, $alpha: 0.10);
+}
+.display{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.description{
+    width: 60%;
+    padding: 70px;
+}
+.image{
+    align-items: center;
+    width: 40%;
+}
+.work{
+    width: 600px;
+}
+h1{
+    margin: 50px 0;
 }
