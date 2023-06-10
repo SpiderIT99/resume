@@ -1,3 +1,27 @@
 .container{
     height: 100vh;
+    padding: 100px 50px;
+}
+.school, .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.school{
+    height: 50%;
+}
+.image{
+    width: 40%;
+}
+.description{
+    text-align: center;
+    width: 60%;
+    padding: 70px;
+}
+.img-school{
+    width: 600px;
+    height: 350px;
+}
+h1{
+    margin-bottom: 30px;
 }

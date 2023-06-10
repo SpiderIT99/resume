@@ -1,11 +1,11 @@
 .container{
     height: 100vh;
+    padding: 50px;
     display: flex;
     padding-top: 13vh;
 }
 .display{
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 .images{
