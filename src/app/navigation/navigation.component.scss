@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 20px 40px 20px 20px;
     background-color: #000000;
     position: fixed;
     width: 100vw;
@@ -20,4 +20,7 @@ a:hover {
 .sections{
     display: flex;
     gap: 20px;
+}
+img{
+    height: 40px;
 }
