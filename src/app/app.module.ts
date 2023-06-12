@@ -6,8 +6,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
-import { CoursesComponent } from './courses/courses.component';
 import { FooterComponent } from './footer/footer.component';
+import { CoursesAndLanguagesComponent } from './courses-and-languages/courses-and-languages.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +16,8 @@ import { FooterComponent } from './footer/footer.component';
     AboutMeComponent,
     ExperienceComponent,
     EducationComponent,
-    CoursesComponent,
-    FooterComponent
+    FooterComponent,
+    CoursesAndLanguagesComponent
   ],
   imports: [
     BrowserModule
