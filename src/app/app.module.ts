@@ -8,6 +8,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
 import { FooterComponent } from './footer/footer.component';
 import { CoursesAndLanguagesComponent } from './courses-and-languages/courses-and-languages.component';
+import { CookiesComponent } from './cookies/cookies.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CoursesAndLanguagesComponent } from './courses-and-languages/courses-an
     ExperienceComponent,
     EducationComponent,
     FooterComponent,
-    CoursesAndLanguagesComponent
+    CoursesAndLanguagesComponent,
+    CookiesComponent
   ],
   imports: [
     BrowserModule
