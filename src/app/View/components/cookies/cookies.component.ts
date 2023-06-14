@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class CookiesComponent {
   activePopup = true;
-  exitPopup(){
+  exitPopup() {
     this.activePopup = false;
   }
 }
