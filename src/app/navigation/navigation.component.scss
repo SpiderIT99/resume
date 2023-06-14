@@ -18,10 +18,37 @@ a{
 a:hover {
     color: rgb(190, 51, 51);
 }
-.sections{
+#sections{
     display: flex;
     gap: 20px;
 }
 img{
     height: 40px;
+    color: #FFFFFF;
+}
+
+
+
+@media screen and (max-width: 743px){
+    #sections{
+        width: 100%;
+        justify-content:space-around;
+    }
+    img{
+        display: none;
+    }
+    #navigation{
+        padding: 10px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    #sections{
+        display: grid;  
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px;
+    }
+    #navigation{
+        font-size: 15px;
+    }
 }

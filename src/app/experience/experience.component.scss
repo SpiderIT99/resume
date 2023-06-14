@@ -3,25 +3,12 @@
     padding: 50px;
     display: flex;
     position: relative;
-}
-.display{
-    display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
-.description{
-    width: 60%;
-    padding: 70px;
-}
-.image{
-    align-items: center;
-    width: 40%;
-}
-.work{
-    width: 600px;
-}
 h1{
-    margin: 30px 0;
+    margin: 50px 0;
 }
 .info{
     position: absolute;
@@ -30,9 +17,26 @@ h1{
 }
 p{
     font-size: 20px;
-    padding-bottom: 10px;
-    padding-left: 25px;
+    padding: 20px 0 10px 40px;
 }
 a{
     color: white;
+}
+.carpenter{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        padding: 30px;
+    }
+    h1{
+        margin: 30px 0;
+    }
+    p{
+        padding: 20px 0 10px 40px;
+    }
+    .carpenter{
+        margin-top: 10px;
+    }
 }

@@ -29,3 +29,19 @@ p{
 a{
     color: lightseagreen;
 }
+
+
+@media screen and (max-width: 1000px){
+    .container{
+        height: auto;
+    }
+    .shaded-background{
+        flex-direction: column;
+    }
+    .shaded-background>div{
+        margin: 20px;
+    }
+    .info{
+        position: relative;
+    }
+}
