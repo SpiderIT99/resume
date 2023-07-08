@@ -1,0 +1,29 @@
+.container{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #FFFFFF;
+}
+.shaded-background{
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 20px 0;
+}
+li{
+    padding: 20px 10px;
+    font-size: 20px;
+}
+.info{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+a{
+    color: lightseagreen;
+}
